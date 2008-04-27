@@ -1,0 +1,11 @@
+User List
+<table border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <th>Login</th>
+    <th>Email</th>
+    <th>Created At</th>
+  </tr>
+  <%= render :partial => "user", :collection => @users %>
+</table>
+<br/>
+<%= link_to 'Add a new user', new_user_path %>

@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/geokit"]
+	path = vendor/plugins/geokit
+	url = git://github.com/ptb/geokit.git
+[submodule "vendor/plugins/restful_authentication"]
+	path = vendor/plugins/restful_authentication
+	url = git://github.com/technoweenie/restful-authentication.git
