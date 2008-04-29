@@ -2631,3 +2631,143 @@ Rendering template within layouts/map
 Rendering users/map
   [4;35;1mUser Columns (0.001312)[0m   [0mSHOW FIELDS FROM `users`[0m
 Completed in 0.01529 (65 reqs/sec) | Rendering: 0.00347 (22%) | DB: 0.00157 (10%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:15:13) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3Jm%0AX2lkIiVjOTFhMzZkNGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3Mw%3D%3D--c7b8b66ff50544c089559df829f598f9b85e4f7c
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.003295)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001260)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.02220 (45 reqs/sec) | Rendering: 0.00893 (40%) | DB: 0.00455 (20%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:16:04) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKOgxjc3JmX2lkIiVjOTFhMzZk%0ANGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3MyIKZmxhc2hJQzonQWN0aW9uQ29u%0AdHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--bd58e142e51a3ce09095aa95eec6c6377859f968
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.001053)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001318)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.01221 (81 reqs/sec) | Rendering: 0.00307 (25%) | DB: 0.00237 (19%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:18:16) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3Jm%0AX2lkIiVjOTFhMzZkNGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3Mw%3D%3D--c7b8b66ff50544c089559df829f598f9b85e4f7c
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.000253)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001294)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.01102 (90 reqs/sec) | Rendering: 0.00290 (26%) | DB: 0.00155 (14%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:19:13) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKOgxjc3JmX2lkIiVjOTFhMzZk%0ANGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3MyIKZmxhc2hJQzonQWN0aW9uQ29u%0AdHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--bd58e142e51a3ce09095aa95eec6c6377859f968
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.000248)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001329)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.01111 (90 reqs/sec) | Rendering: 0.00308 (27%) | DB: 0.00158 (14%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:19:16) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3Jm%0AX2lkIiVjOTFhMzZkNGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3Mw%3D%3D--c7b8b66ff50544c089559df829f598f9b85e4f7c
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.000384)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001261)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.01146 (87 reqs/sec) | Rendering: 0.00294 (25%) | DB: 0.00164 (14%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:19:31) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKOgxjc3JmX2lkIiVjOTFhMzZk%0ANGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3MyIKZmxhc2hJQzonQWN0aW9uQ29u%0AdHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--bd58e142e51a3ce09095aa95eec6c6377859f968
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.000291)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001376)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.01155 (86 reqs/sec) | Rendering: 0.00307 (26%) | DB: 0.00167 (14%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:20:30) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3Jm%0AX2lkIiVjOTFhMzZkNGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3Mw%3D%3D--c7b8b66ff50544c089559df829f598f9b85e4f7c
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;36;1mUser Load (0.000253)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;35;1mUser Columns (0.001382)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 0.01111 (89 reqs/sec) | Rendering: 0.00298 (26%) | DB: 0.00164 (14%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2008-04-29 17:20:40) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKOgxjc3JmX2lkIiVjOTFhMzZk%0ANGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3MyIKZmxhc2hJQzonQWN0aW9uQ29u%0AdHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--bd58e142e51a3ce09095aa95eec6c6377859f968
+  Parameters: {"action"=>"index", "controller"=>"users"}
+  [4;36;1mUser Load (0.000257)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;35;1mUser Columns (0.001381)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered users/_user (0.00335)
+Rendered users/_user (0.00023)
+Completed in 0.01144 (87 reqs/sec) | Rendering: 0.00340 (29%) | DB: 0.00164 (14%) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2008-04-29 17:20:41) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3Jm%0AX2lkIiVjOTFhMzZkNGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3Mw%3D%3D--c7b8b66ff50544c089559df829f598f9b85e4f7c
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (0.001329)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (0.00216)
+Completed in 0.01213 (82 reqs/sec) | Rendering: 0.00322 (26%) | DB: 0.00133 (10%) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2008-04-29 17:21:04) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkKOgxjc3JmX2lkIiVjOTFhMzZk%0ANGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3MyIKZmxhc2hJQzonQWN0aW9uQ29u%0AdHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--bd58e142e51a3ce09095aa95eec6c6377859f968
+  Parameters: {"user"=>{"password_confirmation"=>"azerazer", "login"=>"test", "address"=>"montpellier, france", "password"=>"azerazer", "email"=>"test"}, "commit"=>"Save", "authenticity_token"=>"925b427c395f8eea97aa499564a09f60e1087cb6", "action"=>"create", "controller"=>"users"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;35;1mUser Columns (0.002330)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.000074)[0m   [0;1mBEGIN[0m
+Google geocoding. Address: montpellier, france. Result: <?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0"><Response><name>montpellier, france</name><Status><code>200</code><request>geocode</request></Status><Placemark id="p1"><address>Montpellier, France</address><AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>FR</CountryNameCode><AdministrativeArea><AdministrativeAreaName>Languedoc-Roussillon</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Hérault</SubAdministrativeAreaName><Locality><LocalityName>Montpellier</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails><Point><coordinates>3.879210,43.608503,0</coordinates></Point></Placemark></Response></kml>
+  [4;35;1mUser Load (0.000267)[0m   [0mSELECT * FROM `users` WHERE (LOWER(users.login) = 'test') LIMIT 1[0m
+  [4;36;1mUser Load (0.000107)[0m   [0;1mSELECT * FROM `users` WHERE (LOWER(users.email) = 'test') LIMIT 1[0m
+  [4;35;1mUser Create (0.000157)[0m   [0mINSERT INTO `users` (`salt`, `updated_at`, `crypted_password`, `remember_token_expires_at`, `lng`, `remember_token`, `address`, `lat`, `login`, `created_at`, `email`) VALUES('47c620102b9f1c1e636490c9f32d1b76161322a2', '2008-04-29 17:21:05', '4759d3a2a9945fe6bcf57314d7ead279443407a0', NULL, '3.87921', NULL, 'montpellier, france', '43.608503', 'test', '2008-04-29 17:21:05', 'test')[0m
+  [4;36;1mSQL (0.000325)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 0.30722 (3 reqs/sec) | DB: 0.00326 (1%) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2008-04-29 17:21:05) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkLIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIbVGhhbmtz%0AIGZvciBzaWduaW5nIHVwIQY6CkB1c2VkewY7CFQ6DGNzcmZfaWQiJWM5MWEz%0ANmQ0YTJkN2I5YjI5ZGJkZWU4MjNjYTlkMTcz--340af133e0373ac732b34ed27ca0d11ab21a5f3e
+  Parameters: {"action"=>"index", "controller"=>"users"}
+  [4;35;1mUser Load (0.000236)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/application
+Rendering users/index
+  [4;36;1mUser Columns (0.001372)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered users/_user (0.00327)
+Rendered users/_user (0.00022)
+Rendered users/_user (0.00017)
+Completed in 0.01196 (83 reqs/sec) | Rendering: 0.00367 (30%) | DB: 0.00161 (13%) | 200 OK [http://localhost/]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:21:08) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkLOgxjc3JmX2lkIiVjOTFhMzZk%0ANGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3MyIKZmxhc2hJQzonQWN0aW9uQ29u%0AdHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--82317e8dfa580e3c242b28cec80ca99420167723
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;35;1mUser Load (0.000241)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;36;1mUser Columns (0.001325)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 0.01121 (89 reqs/sec) | Rendering: 0.00304 (27%) | DB: 0.00157 (13%) | 200 OK [http://localhost/users/map]
+
+
+Processing UsersController#map (for 127.0.0.1 at 2008-04-29 17:22:41) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkLIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3Jm%0AX2lkIiVjOTFhMzZkNGEyZDdiOWIyOWRiZGVlODIzY2E5ZDE3Mw%3D%3D--64cd741d45bc386f4b1552b05e0b2b5d06933d37
+  Parameters: {"action"=>"map", "controller"=>"users"}
+  [4;35;1mUser Load (0.000280)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/map
+Rendering users/map
+  [4;36;1mUser Columns (0.001308)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 0.01142 (87 reqs/sec) | Rendering: 0.00325 (28%) | DB: 0.00159 (13%) | 200 OK [http://localhost/users/map]
