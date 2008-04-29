@@ -33,3 +33,25 @@ Application = new Class.create({
   }
 });
 
+
+MiniMap = new Class.create({
+  initialize: function(map, user) {
+    this.element = $(map);
+    this.user    = user.evalJSON();
+    document.observe("dom:loaded", this.init.bind(this));
+  },
+  
+  init: function() {
+    if (GBrowserIsCompatible()) {
+      // Create a google map
+      this.map = new GMap2(this.element);
+      
+      // Center on France
+      this.map.setCenter(new GLatLng(this.user.lat, this.user.lng), 6);
+      
+      var marker = new GMarker(new GLatLng(this.user.lat, this.user.lng));
+      this.map.addOverlay(marker);
+    }
+  }
+});
+

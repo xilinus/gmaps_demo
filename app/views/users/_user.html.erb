@@ -4,5 +4,8 @@
   <td><%= user.lat %></td>
   <td><%= user.lng %></td>
   <td><%= user.created_at.to_s :short %></td>
+  <td><div id="<%= dom_id(user) %>" class="minimap"></div></td>
   <td><%= link_to 'edit', edit_user_path(user) %></td>
 </tr>
+<%= javascript_tag "new MiniMap('#{dom_id(user)}', '#{user.to_json(:only => [:login, :lat, :lng])}');" %>
+
