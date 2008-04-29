@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :users
+  map.resources :users, :collection  => {:map => :get}
 
   map.resource :session
 
@@ -33,6 +33,7 @@ ActionController::Routing::Routes.draw do |map|
 
   # See how all your routes lay out with "rake routes"
   map.root :controller => 'users'
+  
   
   # Install the default routes as the lowest priority.
   map.connect ':controller/:action/:id'

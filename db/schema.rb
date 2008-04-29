@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 1) do
+ActiveRecord::Schema.define(:version => 2) do
 
   create_table "users", :force => true do |t|
     t.string   "login"
@@ -20,6 +20,9 @@ ActiveRecord::Schema.define(:version => 1) do
     t.datetime "updated_at"
     t.string   "remember_token"
     t.datetime "remember_token_expires_at"
+    t.string   "address"
+    t.decimal  "lat",                                     :precision => 15, :scale => 10
+    t.decimal  "lng",                                     :precision => 15, :scale => 10
   end
 
 end

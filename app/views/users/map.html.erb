@@ -1,0 +1,2 @@
+<div id="map"></div>
+<%= javascript_tag "new Application('#{@users.to_json(:only => [:login, :lat, :lng])}');" %>

@@ -3,9 +3,11 @@ User List
   <tr>
     <th>Login</th>
     <th>Email</th>
+    <th>Lat</th>
+    <th>Lng</th>
     <th>Created At</th>
   </tr>
   <%= render :partial => "user", :collection => @users %>
 </table>
 <br/>
-<%= link_to 'Add a new user', new_user_path %>
+<%= link_to 'Add a new user', new_user_path %> - <%= link_to 'View map', map_users_path %>

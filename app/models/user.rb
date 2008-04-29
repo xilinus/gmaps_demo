@@ -15,7 +15,10 @@ class User < ActiveRecord::Base
   
   # prevents a user from submitting a crafted form that bypasses activation
   # anything else you want your user to change should be added here.
-  attr_accessible :login, :email, :password, :password_confirmation
+  attr_accessible :login, :email, :password, :password_confirmation, :address
+
+  acts_as_mappable :auto_geocode => true
+  before_validation_on_update :auto_geocode_address        
 
   # Authenticates a user by their login name and unencrypted password.  Returns the user or nil.
   def self.authenticate(login, password)
@@ -66,7 +69,7 @@ class User < ActiveRecord::Base
   def recently_activated?
     @activated
   end
-
+  
   protected
     # before filter 
     def encrypt_password

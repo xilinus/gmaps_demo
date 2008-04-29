@@ -1,5 +1,8 @@
 <tr>
   <td><%= user.login %></td>
   <td><%= user.email %></td>
+  <td><%= user.lat %></td>
+  <td><%= user.lng %></td>
   <td><%= user.created_at.to_s :short %></td>
+  <td><%= link_to 'edit', edit_user_path(user) %></td>
 </tr>
