@@ -1,5 +1,6 @@
 Sample Rails 2.0 Application to show how to use GoogleMaps.
-This application has been written in live in RailsCamps Paris 2008
+This application has been written in live in RailsCamps Paris 2008, that's why there is no unit/functionnal tests
+Feel free to add them! 
 
 It uses two plugins
 - restful_authentication used to generate quickly users views/controller
@@ -13,7 +14,9 @@ git clone git://github.com/xilinus/gmaps_demo.git
 git submodule init  
 git submodule update
 
-# By default database.yml is set on mysql, edit it if you want to use another database
+# By default database.yml is set on mysql, edit it if you want to use another database but
+# Geokit only support MySQL and PostgreSQL (8.2.6)
+#
 # To generate create database and fill some data
 rake db:create
 rake db:migrate
@@ -22,9 +25,8 @@ rake db:fixtures:load
 # Start webserver
 ./script/server
 
-The googlemap key is set to localhost, so open your browser on http://localhost:3000/
-If you want ot chnage it, go to google http://code.google.com/apis/maps/ and update layout files.
+# The googlemap key is set to localhost, so open your browser on http://localhost:3000/
+# If you want ot chnage it, go to google http://code.google.com/apis/maps/ and update layout files.
 
-That's it 
-
-:)
+# That's it 
+# :)
