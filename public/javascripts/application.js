@@ -1,4 +1,5 @@
 Application = new Class.create({
+  // User is an array hash with 3 keys: lat, lng, login
   initialize: function(map, users) {
     this.element = $(map);
     this.users   = users.evalJSON();
